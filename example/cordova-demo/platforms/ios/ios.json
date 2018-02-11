@@ -1,0 +1,47 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"LaunchAR\"><param name=\"ios-package\" value=\"unityARCaller\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SendMessage\"><param name=\"ios-package\" value=\"unityARCaller\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "unityARCaller": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "unityARCaller.unityARCaller",
+      "file": "plugins/unityARCaller/www/unityARCaller.js",
+      "pluginId": "unityARCaller",
+      "clobbers": [
+        "unityARCaller"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.3",
+    "unityARCaller": "1.0.0"
+  }
+}

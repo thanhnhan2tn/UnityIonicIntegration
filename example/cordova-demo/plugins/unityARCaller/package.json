@@ -1,0 +1,56 @@
+{
+  "_from": "git+https://github.com/yasirkula/UnityIonicIntegration.git",
+  "_id": "UnityIonicIntegration@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Qu95m/QBBbdCT3r8gIvr0RAQwvM=",
+  "_location": "/UnityIonicIntegration",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/yasirkula/UnityIonicIntegration.git",
+    "rawSpec": "https://github.com/yasirkula/UnityIonicIntegration.git",
+    "saveSpec": "git+https://github.com/yasirkula/UnityIonicIntegration.git",
+    "fetchSpec": "https://github.com/yasirkula/UnityIonicIntegration.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/yasirkula/UnityIonicIntegration.git#2c3fc6e7b341874c748f0db5e816aa913b6334a5",
+  "_spec": "https://github.com/yasirkula/UnityIonicIntegration.git",
+  "_where": "/Users/thanhnhan/Desktop/unityDemo/demo",
+  "author": {
+    "name": "yasirkula"
+  },
+  "bugs": {
+    "url": "https://github.com/yasirkula/UnityIonicIntegration/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "unityARCaller",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "A plugin to communicate with embedded Unity 3D content",
+  "homepage": "https://github.com/yasirkula/UnityIonicIntegration#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "UnityIonicIntegration",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasirkula/UnityIonicIntegration.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
